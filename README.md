@@ -5,7 +5,9 @@ This is my latest build, based on all the things I have learned from other build
 
 Frame: 
 Trident Doom corners by LDO (300 Cube)
+
 4040 on bottom sides/back
+
 2040 on top and bottom front
 Dual 2040 on Y
 Corner braces wherever possible
