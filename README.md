@@ -4,7 +4,7 @@ This is my custom built 4040/4020 Trident. I will update this over the next few 
 This is my latest build, based on all the things I have learned from other builds. I really wanted to build a higher performance printer that looks good. In using the stock extrusion lengths you ‘lose’ 20mm going with 4040 extrusions and 28mm with Trinity, which is why I’m using the 300 Cube length corners (550mm) with standard 300mm lead screw steppers — this should still allow me 250mm Z travel (Actually 238mm right now..). I drilled additional hole in the round corners to allow 3 fasters to be used with 4040 sides and back. For the panels there will be a stack of 3.5mm carbon fiber, 10mm adhesive foam insulation, 5mm structurer panel. Yes, carbon fiber is a bit crazy here, but I got a killer deal on 3.5mm … apparently no one uses it, so it was cheaper than PC panels.
 
 Frame: 
-Trident Doom corners by LDO (300 Cube)
+<br>Trident Doom corners by LDO (300 Cube)</br>
 4040 on bottom sides/back
 2040 on top and bottom front
 Dual 2040 on Y
