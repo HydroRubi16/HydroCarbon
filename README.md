@@ -35,15 +35,20 @@ LDO-42STH40-1684L300E
 BST for Z  
 Hiwin for Y  
 Airtac for X  
+GPL-226 Lube  
 
 **Electronics:**  
 Octopus Max EZ MCU  
-EZ5160RGB drivers for X/Y  
-EZ2209 drivers for Z  
+EZ5160RGB drivers for X/Y  (48v)  
+EZ2209 drivers for Z  (24v)  
 Dragon Dinghy expansion board  
 Waveshare USB Hub  
 Phoenix Contact distribution block  
 Spicy Meatball 500W heater  
+
+**Skirts:**  
+Top skirts - [Darkmatter Skirts](https://github.com/MasturMynd/Doom-Stuff/tree/main/Darkmatter-Skirts)  
+Short skirts on the bottom by Brazuka and Komikaze
 
 **Panels and insulation:**  
 4.7mm structure panels on Sides/Back  
