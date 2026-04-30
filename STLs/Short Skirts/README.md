@@ -7,3 +7,5 @@ to the design, but it's inteded to be used with Hula Feet. This can be used with
 insert a neopixel. Inserts can be omitted, or printed in clear PETG or ABS, or some prefer white PLA.  
   
 The feet have passage ways for running wiring up the LDO rounded corners; Please use PET sleeving for your wiring. It will rattle arround like a MF'r if you don't. 
+
+![](/images/ShortSkirts.png)
