@@ -28,13 +28,26 @@ sudo apt install Weston seatd
 ```
 
 5. Verify HDMI port and connection status  
-	```grep -H . /sys/class/drm/card*-*/status | grep :connected```
-	Should look like: ```/sys/class/drm/card1-HDMI-A-1/status:connected```
+
+
+```
+grep -H . /sys/class/drm/card*-*/status | grep :connected
+```
+
+Should look like:```/sys/class/drm/card1-HDMI-A-1/status:connected```
 		
 6. Update INI file  
-	```sudo nano ~/.config/weston.ini```
-	Add the follow:  
-	```[output]  
-	name=HDMI-A-1  
-	transform=rotate-90```
+	
+```
+sudo nano ~/.config/weston.ini
+```
+	
+Add the follow:  
+
+```
+[output]  
+name=HDMI-A-1  
+transform=rotate-90
+```
+
 7. Reboot. Klipperscreen should be oriented correctly. Changing the rotating in the Weston.ini file also appears to change the touch overlay, as well.  
