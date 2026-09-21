@@ -1,4 +1,4 @@
-# How to install an 11.9" Waveshare HDMI display using Klipperscreen
+# How to install an 11.9" Waveshare HDMI display with an RPI5 using Klipperscreen
   
 1. Attach HDMI screen, attach USB power, USB Touch, and HDMI to the first HDMI port (closest to USB-C)  
   
@@ -14,6 +14,7 @@ video=HDMI-A-1:1480x320@60,rotate=90
 ```
 	
 3. Install Klipperscreen. When prompted for x11 or Wayland, choose W for Waland  
+  
 4. Klipperscreen installs Cage, and I could only get Weston to work:  
 	Uninstall Cage:  
 ```
