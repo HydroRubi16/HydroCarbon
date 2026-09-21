@@ -1,4 +1,7 @@
+# How to install an 11.9" Waveshare HDMI display using Klipperscreen
+  
 1. Attach HDMI screen, attach USB power, USB Touch, and HDMI to the first HDMI port (closest to USB-C)  
+  
 2. SSH into the PI (might not be needed)  
 ```
 sudo nano /boot/firmware/cmdline.txt
