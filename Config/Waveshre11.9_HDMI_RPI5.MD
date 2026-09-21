@@ -1,6 +1,8 @@
 1. Attach HDMI screen, attach USB power, USB Touch, and HDMI to the first HDMI port (closest to USB-C)  
 2. SSH into the PI (might not be needed)  
-	```sudo nano /boot/firmware/cmdline.txt```
+```
+sudo nano /boot/firmware/cmdline.txt
+```
           
 	add the following at the very end:  
 	```video=HDMI-A-1:1480x320@60,rotate=90```
