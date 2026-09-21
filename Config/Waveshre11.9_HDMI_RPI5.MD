@@ -13,10 +13,20 @@ video=HDMI-A-1:1480x320@60,rotate=90
 3. Install Klipperscreen. When prompted for x11 or Wayland, choose W for Waland  
 4. Klipperscreen installs Cage, and I could only get Weston to work:  
 	Uninstall Cage:  
-	```sudo systemctl stop KlipperScreen```
-	```sudo apt remove cage```
-	Install Weston:  
-	```sudo apt install Weston seatd```
+```
+sudo systemctl stop KlipperScreen
+```
+
+```
+sudo apt remove cage
+```
+
+Install Weston:  
+
+```
+sudo apt install Weston seatd
+```
+
 5. Verify HDMI port and connection status  
 	```grep -H . /sys/class/drm/card*-*/status | grep :connected```
 	Should look like: ```/sys/class/drm/card1-HDMI-A-1/status:connected```
