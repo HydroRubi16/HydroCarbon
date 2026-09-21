@@ -3,8 +3,9 @@
 ```
 sudo nano /boot/firmware/cmdline.txt
 ```  
-          
-	add the following at the very end:  
+
+add the following at the very end:  
+
 ```
 video=HDMI-A-1:1480x320@60,rotate=90
 ```
