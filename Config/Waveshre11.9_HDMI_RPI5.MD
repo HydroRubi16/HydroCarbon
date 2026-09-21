@@ -2,7 +2,7 @@
 2. SSH into the PI (might not be needed)  
 ```
 sudo nano /boot/firmware/cmdline.txt
-```
+```  
           
 	add the following at the very end:  
 ```
