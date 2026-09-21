@@ -1,8 +1,8 @@
 # How to install an 11.9" Waveshare HDMI display with an RPI5 using Klipperscreen
   
-1. Attach HDMI screen, attach USB power, USB Touch, and HDMI to the first HDMI port (closest to USB-C)  
+1. Install the HDMI screen, attach USB power, USB Touch, and HDMI to the first HDMI port (closest to USB-C)  
   
-2. SSH into the PI (might not be needed)  
+2. SSH into the PI  
 ```
 sudo nano /boot/firmware/cmdline.txt
 ```  
@@ -13,9 +13,9 @@ add the following at the very end:
 video=HDMI-A-1:1480x320@60,rotate=90
 ```
 	
-3. Install Klipperscreen. When prompted for x11 or Wayland, choose W for Waland  
+3. Install Klipperscreen. When prompted for x11 or Wayland, choose W for Wayland  
   
-4. Klipperscreen installs Cage, and I could only get Weston to work:  
+4. Klipperscreen installs Cage, and I could only get Weston to work, so uninstall Cage and install Weston:  
 	Uninstall Cage:  
 ```
 sudo systemctl stop KlipperScreen
@@ -46,7 +46,7 @@ Should look like:```/sys/class/drm/card1-HDMI-A-1/status:connected```
 sudo nano ~/.config/weston.ini
 ```
 	
-Add the follow:  
+Add the following:  
 
 ```
 [output]  
@@ -55,3 +55,6 @@ transform=rotate-90
 ```
 
 7. Reboot. Klipperscreen should be oriented correctly. Changing the rotating in the Weston.ini file also appears to change the touch overlay, as well.  
+```
+sudo reboot
+```
